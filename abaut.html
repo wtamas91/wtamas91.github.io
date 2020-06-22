@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abaut</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/Pages/Products.html">Products</a>
+        </li>
+        <li>
+            <a href="/Pages/Orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/abaut.html">Abaut</a>
+        </li>
+    </ul>
+
+    <h1>Abaut</h1>
+
+    <!--=============================TÁBLÁZATOK=====================================-->
+
+    <Table>
+        <Caption>Opening hours</Caption>
+        <!--Táblázat neve-->
+        <thead>
+            <!--Oszlop fejlécek-->
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Oszlopok adatai-->
+            <tr>
+                <!--Sorok, atr a table row rövidítése-->
+                <td>Monday-Friday</td>
+                <!--Oszlopok-->
+                <td><!--Cellák-->09:00</td>
+                <!--<td>21:00</td>-->
+                <td rowspan="2">21:00</td> <!--rowspan="" ezzel nyújtom a cellákat/sorokat-->
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>09:00</td>
+                <!--<td>24:00</td>-->
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">Closed</td> <!--Oszlopokat kapcsolok egybe-->
+                <!--<td>09:00</td>
+                <td>12:00</td>-->
+            </tr>
+
+        </tbody>
+        <!-- <tfoot>&copy;2019</tfoot> Így helytelen -->
+        <tfoot>
+            <!--Lábjegyzet-->
+            <tr>
+                <td colspan="3">
+                    &COPY;2019
+                </td>
+            </tr>
+        </tfoot>
+
+    </Table>
+
+</body>
+
+</html>
